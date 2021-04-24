@@ -289,8 +289,8 @@ export default [
 		],
 		output: [
 			{
-				format: 'umd',
-				name: 'THREE',
+				format: 'iife',
+				name: 'window.THREE',
 				file: 'build/three.js',
 				indent: '\t'
 			}
@@ -313,8 +313,8 @@ export default [
 		],
 		output: [
 			{
-				format: 'umd',
-				name: 'THREE',
+				format: 'iife',
+				name: 'window.THREE',
 				file: 'build/three.min.js'
 			}
 		]
